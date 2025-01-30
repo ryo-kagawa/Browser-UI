@@ -1,0 +1,5 @@
+{
+  "name": "ryo-kagawa/Browser-UI",
+  "image": "mcr.microsoft.com/devcontainers/base:bookworm",
+  "onCreateCommand": "bash ./.devcontainer/onCreateCommand.sh"
+}
