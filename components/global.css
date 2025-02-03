@@ -1,0 +1,8 @@
+@property --ryo-kagawa-ui-scale {
+  syntax: "<length>";
+  inherits: false;
+}
+
+:root {
+  --ryo-kagawa-ui-scale: 0.25rem;
+}

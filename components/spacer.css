@@ -1,0 +1,19 @@
+@property --spacer-scale-x {
+  syntax: "<length-percentage> | auto>";
+  inherits: false;
+}
+
+@property --spacer-scale-y {
+  syntax: "<length-percentage> | auto>";
+  inherits: false;
+}
+
+:root {
+  --ryo-kagawa-ui-spacer-x: var(--ryo-kagawa-ui-scale);
+  --ryo-kagawa-ui-spacer-y: var(--ryo-kagawa-ui-scale);
+}
+
+.ryo-kagawa-ui-spacer {
+  width: 0;
+  height: 0;
+}
