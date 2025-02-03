@@ -1,0 +1,23 @@
+{
+  "name": "@ryo-kagawa/browser-ui",
+  "version": "0.0.1",
+  "description": "ブラウザ用UI",
+  "main": "index.js",
+  "scripts": {
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@storybook/addon-essentials": "^8.5.3",
+    "@storybook/addon-interactions": "^8.5.3",
+    "@storybook/react": "^8.5.3",
+    "@storybook/react-vite": "^8.5.3",
+    "storybook": "^8.5.3",
+    "typescript": "^5.7.3"
+  },
+  "volta": {
+    "node": "22.13.1"
+  }
+}
